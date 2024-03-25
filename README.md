@@ -6,9 +6,12 @@ For the Software engineering team this is as an interactive 'conversation starte
 
 Outside of the Tech Team this is a tool to showcase technologies that we are actively using or looking to trial.
 
+https://radar.thoughtworks.com/?documentId=https://raw.githubusercontent.com/1SpatialGroupLtd/1spatialtechradar/main/1spatial_tech_radar.csv 
+
 **Contribution**
 
 All 1Spatial team members are encourages to contribute to the repository and the intent is this will be reviewed and updated as a group twice a year. 
+
 
 
 
