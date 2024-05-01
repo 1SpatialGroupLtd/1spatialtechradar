@@ -1,88 +1,88 @@
 name,ring,quadrant,isNew,description
-Pipeline Based CI instead of manually managed jobs,adopt,techniques,TRUE,Adopt use of Jenkins Pipelines. There is a repo with some useful util methods people can start using in bitbucket: 1spatial_jenkins_pipeline_utils
-Use automation handles consistently across codebases,adopt,techniques,TRUE,Adopt consistent use of ids for decorating UI elements to aid automation
-Nexus as a Single Repository,adopt,techniques,TRUE,"Unify the .NET, Java , Docker and test data artefact storage all in Nexus - single  and backed up source of truth"
-Containarised Test Databases,adopt,techniques,TRUE,
-AI Assisted Development,trial,techniques,TRUE,Use Copilot 
-Adopt CD approach for development and test environments ,trial,techniques,TRUE,And one day production environments. Explore ArgoCD
-Performance Profiling,trial,techniques,TRUE,
-Handling True 3D,trial,techniques,TRUE,
-Handling True Geodetics,trial,techniques,TRUE,
-Unify approach for Accessibility Testing,trial,techniques,TRUE,
-Shared modules for test automation,assess,techniques,TRUE,
-Aspect Oriented Programming,assess,techniques,TRUE,
-Telemetry for app feature usage,assess,techniques,TRUE,
-Enhance Test Integration with Jira,assess,techniques,TRUE,
-In-house Penetration Testing,assess,techniques,TRUE,
-Secure by Design Approach,assess,techniques,TRUE,
-Favour lightweight/microservices architecture,assess,techniques,TRUE,"Use of microservices; service-event bus , service mesh"
-Think 'bare bones' build infrastucture and build up,hold,techniques,TRUE,
-Docker as main test and release,adopt,platforms,TRUE,
-Windows 11,adopt,platforms,TRUE,
-Java 17,adopt,platforms,TRUE,
-Kubernetes,adopt,platforms,TRUE,
-"ELK stack ( Elasticsearch, Logstash, and Kibana)",adopt,platforms,TRUE,
-.NET 8,adopt,platforms,TRUE,
-Spring Boot,adopt,platforms,TRUE,
-Python 3,adopt,platforms,TRUE,
-iOS,trial,platforms,TRUE,
-macOS,trial,platforms,TRUE,
-Redis,trial,platforms,TRUE,
-Postgres Long transactions,assess,platforms,TRUE,
-Java 21,assess,platforms,TRUE,
-NoSQL,assess,platforms,TRUE,
-SQLServer 2022,assess,platforms,TRUE,
-Oracle 23 Multitenancy,assess,platforms,TRUE,
-Non-Azure Cloud Platforms,hold,platforms,TRUE,
-Kafka,hold,platforms,TRUE,
-Serverless Databases,hold,platforms,TRUE,
-Apache Spark,hold,platforms,TRUE,
-Tauri,hold,platforms,TRUE,
-W3C Accessibility Insights for Web,adopt,tools,TRUE,
-clang,adopt,tools,TRUE,
-Grafana,adopt,tools,TRUE,
-Visual Studio 2022,adopt,tools,TRUE,
-Swig Doc Generator,adopt,tools,TRUE,
-Jmeter,adopt,tools,TRUE,
-Jenkins Pipelines,adopt,tools,TRUE,
-Snyk,trial,tools,TRUE,
-OWASP Dependency-Check,trial,tools,TRUE,https://plugins.jenkins.io/dependency-check-jenkins-plugin/
-Cypress/Webdriver IO,trial,tools,TRUE,
-Tensorflow Lite,trial,tools,TRUE,
-Firebase Analytics/Crashalytics,trial,tools,TRUE,
-Rook/Ceph,assess,tools,TRUE,
-Blackbox exporter,assess,tools,TRUE,
-C' family coverage tools ,assess,tools,TRUE,
-Chaos ,assess,tools,TRUE,Resilience Test tool
-RustRover,assess,tools,TRUE,
-CLion,assess,tools,TRUE,
-Pulumi,hold,tools,TRUE,
-Terraform,hold,tools,TRUE,
-Bicep,hold,tools,TRUE,
-WebAssembly,hold,tools,TRUE,
-AzureDevOps for .NET development,hold,tools,TRUE,
-Deck.gl (Vis.gl),adopt,languages & frameworks,TRUE,
-React 18,adopt,languages & frameworks,TRUE,
-Junit 5,adopt,languages & frameworks,TRUE,
-Angular 17,adopt,languages & frameworks,TRUE,
-MapStore ( react extensions ),trial,languages & frameworks,TRUE,
-Vite,trial,languages & frameworks,TRUE,
-"ESRI SDK ( JavaScript , .NET ) ",trial,languages & frameworks,TRUE,
-OpenTelemetry,trial,languages & frameworks,TRUE,
-.NET MAUI ,trial,languages & frameworks,TRUE,
-C# 11-12,trial,languages & frameworks,TRUE,
-Go,trial,languages & frameworks,TRUE,
-.NET Aspire,trial,languages & frameworks,TRUE,
-Rust,trial,languages & frameworks,TRUE,
-Compose Multiplatform,trial,languages & frameworks,TRUE,
-Flutter,trial,languages & frameworks,TRUE,
-Playwright,assess,languages & frameworks,TRUE,
-Blazor,assess,languages & frameworks,TRUE,
-NextJS,assess,languages & frameworks,TRUE,
-Angular 18,assess,languages & frameworks,TRUE,
-Serverless functions,assess,languages & frameworks,TRUE,In a platform agnostic way
-React 19,hold,languages & frameworks,TRUE,
-Cesium,hold,languages & frameworks,TRUE,
-Micronaut,hold,languages & frameworks,TRUE,
-Quarkus,hold,languages & frameworks,TRUE,
-Kotlin for Multi-platform development,hold,languages & frameworks,TRUE,
+Pipeline Based CI instead of manually managed jobs,adopt,techniques,FALSE,Adopt use of Jenkins Pipelines. There is a repo with some useful util methods people can start using in bitbucket: 1spatial_jenkins_pipeline_utils
+Use automation handles consistently across codebases,adopt,techniques,FALSE,"Adopt consistent use of ids for decorating UI elements to aid automation"
+Nexus as a Single Repository,adopt,techniques,FALSE,"Unify the .NET, Java , Docker and test data artefact storage all in Nexus - single  and backed up source of truth"
+Containarised Test Databases,adopt,techniques,FALSE, "Explore the use of Testcontainers for lightweight local and ci database testing : https://java.testcontainers.org/modules/databases/"
+AI Assisted Development,trial,techniques,FALSE,"Trial the use of the GitHub Copilot in our prefered IDEs as a powerfull code autocompletion tool"
+Adopt CD approach for development and test environments ,trial,techniques,FALSE,"And one day production environments. Explore ArgoCD"
+Performance Profiling,trial,techniques,FALSE,"Investigate tools for performance profiling of code and trial during performance investigations"
+Handling True 3D,trial,techniques,FALSE,
+Handling True Geodetics,trial,techniques,FALSE,
+Unify approach for Accessibility Testing,trial,techniques,FALSE,
+Shared modules for test automation,assess,techniques,FALSE,
+Aspect Oriented Programming,assess,techniques,FALSE,
+Telemetry for app feature usage,assess,techniques,FALSE,
+Enhance Test Integration with Jira,assess,techniques,FALSE,
+In-house Penetration Testing,assess,techniques,FALSE, "Assess how do we aquire the skills, tooling and environments to perform in-house penetration ( delta ) testing. Official Pen testing will always be outsourced but as part of Secure by Design principles we should asses our internal capability"
+Secure by Design Approach,assess,techniques,FALSE, "Asses if we can embed the Secure by Design framework of practices for our current and future development : https://www.security.gov.uk/guidance/secure-by-design/principles/"
+Favour lightweight/microservices architecture,assess,techniques,FALSE,"Use of microservices; service-event bus , service mesh"
+Think 'bare bones' build infrastucture and build up,hold,techniques,FALSE, "Our CI builds should , where feasible should be self-contained along with all prerequisites set up using IoC principles"
+Docker as main test and release,adopt,platforms,FALSE,"Adopt Docker containers as the main test and distribution platfom of our software where applicable"
+Windows 11,adopt,platforms,FALSE, "Windows 11 will be our target Windows Desktop platform for development and testing"
+Java 17,adopt,platforms,FALSE, "Adopt Java 17 as the main JDK platform" 
+Kubernetes,adopt,platforms,FALSE, "Adopt K8S for deployment of our systems and orchestration - goes hand in hand with microservices architectures and dockerised releases."
+"ELK stack ( Elasticsearch, Logstash, and Kibana)",adopt,platforms,FALSE,
+.NET 8,adopt,platforms,FALSE,
+Spring Boot,adopt,platforms,FALSE,
+Python 3,adopt,platforms,FALSE,
+iOS,trial,platforms,FALSE,
+macOS,trial,platforms,FALSE,
+Redis,trial,platforms,FALSE,
+Postgres Long transactions,assess,platforms,FALSE,
+Java 21,assess,platforms,FALSE,
+NoSQL,assess,platforms,FALSE,
+SQLServer 2022,assess,platforms,FALSE,"
+Oracle 23 Multitenancy,assess,platforms,FALSE, "Oracle 23 introduces Multitency for Workspace Manager, along with other siginifant improvements. Explore if this will be the next supported Oracle platform"
+Non-Azure Cloud Platforms,hold,platforms,FALSE, "Do we want to support of explore vendor neutral tooling for AWS , GoogleCloud etc."
+Kafka,hold,platforms,FALSE,
+Serverless Databases,hold,platforms,FALSE,
+Apache Spark,hold,platforms,FALSE,
+Tauri,hold,platforms,FALSE,
+W3C Accessibility Insights for Web,adopt,tools,FALSE,
+clang,adopt,tools,FALSE,
+Grafana,adopt,tools,FALSE,
+Visual Studio 2022,adopt,tools,FALSE,
+Swig Doc Generator,adopt,tools,FALSE,
+Jmeter,adopt,tools,FALSE,
+Jenkins Pipelines,adopt,tools,FALSE,
+Snyk,trial,tools,FALSE,
+OWASP Dependency-Check,trial,tools,FALSE,https://plugins.jenkins.io/dependency-check-jenkins-plugin/
+Cypress/Webdriver IO,trial,tools,FALSE,
+Tensorflow Lite,trial,tools,FALSE,
+Firebase Analytics/Crashalytics,trial,tools,FALSE,
+Rook/Ceph,assess,tools,FALSE,
+Blackbox exporter,assess,tools,FALSE,
+C' family coverage tools ,assess,tools,FALSE,
+Chaos ,assess,tools,FALSE,Resilience Test tool
+RustRover,assess,tools,FALSE,
+CLion,assess,tools,FALSE,
+Pulumi,hold,tools,FALSE,
+Terraform,hold,tools,FALSE,
+Bicep,hold,tools,FALSE,
+WebAssembly,hold,tools,FALSE,
+AzureDevOps for .NET development,hold,tools,FALSE,
+Deck.gl (Vis.gl),adopt,languages & frameworks,FALSE,
+React 18,adopt,languages & frameworks,FALSE,
+Junit 5,adopt,languages & frameworks,FALSE,
+Angular 17,adopt,languages & frameworks,FALSE,
+MapStore ( react extensions ),trial,languages & frameworks,FALSE,
+Vite,trial,languages & frameworks,FALSE,
+"ESRI SDK ( JavaScript , .NET ) ",trial,languages & frameworks,FALSE,
+OpenTelemetry,trial,languages & frameworks,FALSE,
+.NET MAUI ,trial,languages & frameworks,FALSE,
+C# 11-12,trial,languages & frameworks,FALSE,
+Go,trial,languages & frameworks,FALSE,
+.NET Aspire,trial,languages & frameworks,FALSE,".NET Aspire is cloud ready stack for building observable, production ready, distributed applications. .NET Aspire is delivered through a collection of NuGet packages that handle specific cloud-native concerns. Cloud-native apps often consist of small, interconnected pieces or microservices rather than a single, monolithic code base. https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview"
+Rust,trial,languages & frameworks,FALSE,"Modern and highly popular in the industry alternative to C/C++. Explore for low level, memory hungry, concurency applications. Originally intended to serve as a safer alternative to C and C++, Rust is a systems programming language that has gained significant popularity among developers thanks to its emphasis on safety, performance, and productivity. Our top contender for CoG !!! https://www.rust-lang.org/"
+Compose Multiplatform,trial,languages & frameworks,FALSE,"Multiplatform Application Development - Build your user interface once, and use it on all platforms – Android, iOS, web, and desktop. https://www.jetbrains.com/lp/compose-multiplatform/.Explore together with Kotlin for Multiplatform"
+Flutter,trial,languages & frameworks,FALSE,"Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.https://flutter.dev/"
+Playwright,assess,languages & frameworks,FALSE,"Playwright is an open-source automation library for browser testing and web scraping.https://playwright.dev/ "
+Blazor,assess,languages & frameworks,FALSE,"Blazor is a framework that allows you to use the power of .NET and C# to build full stack web apps without writing a line of JavaScript.https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+NextJS,assess,languages & frameworks,FALSE,"Increasingly gaining popularity Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.https://nextjs.org/"
+Angular 18,assess,languages & frameworks,FALSE,"The Beta version of Angular 17 is now released with plently of new features as well as support for TypeScript 4.7 Support and new APIs. Read more on https://blog.angular.io/."
+Serverless functions,assess,languages & frameworks,FALSE,"Assess how can we do serverless functions in a platform agnostic way - a serverless function that doesn't have a direct dependency (in its code or in its configuration) to the framework of a particular cloud provider.Explore tools such as Spring Cloud or Kubeless ? "
+React 19,hold,languages & frameworks,FALSE,"The Beta version of React 19 has now been release plenty of useful features ! Keep an eye on the official versions . Blog with quick overview of the changes : https://www.freecodecamp.org/news/new-react-19-features/ "
+Cesium,hold,languages & frameworks,FALSE,"Open platform for software applications designed to unleash the power of 3D data.https://cesium.com/. Explore together with CesiumJS (https://cesium.com/platform/cesiumjs/)"
+Micronaut,hold,languages & frameworks,FALSE,"Micronaut is a is an open source JVM-based framework for building lightweight microservices. It is designed to avoid reflection, thus reducing memory consumption and improving start times.https://micronaut.io/"
+Quarkus,hold,languages & frameworks,FALSE,"K8S native Java stack https://quarkus.io/"
+Kotlin for Multi-platform development,hold,languages & frameworks,FALSE,"The Kotlin Multiplatform technology is designed to simplify the development of cross-platform projects. When starting new Cross-platform projects consider Kotlin https://kotlinlang.org/docs/multiplatform.html"
