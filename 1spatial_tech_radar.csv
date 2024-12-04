@@ -1,88 +1,88 @@
-name,ring,quadrant,isNew,description
-Pipeline Based CI instead of manually managed jobs,adopt,techniques,FALSE,Adopt use of Jenkins Pipelines. There is a repo with some useful util methods people can start using in bitbucket: 1spatial_jenkins_pipeline_utils
-Use automation handles consistently across codebases,adopt,techniques,FALSE,"Adopt consistent use of ids for decorating UI elements to aid automation"
-Nexus as a Single Repository,adopt,techniques,FALSE,"Unify the .NET, Java , Docker and test data artefact storage all in Nexus - single  and backed up source of truth"
-Containarised Test Databases,adopt,techniques,FALSE, "Explore the use of Testcontainers for lightweight local and ci database testing : https://java.testcontainers.org/modules/databases/"
-AI Assisted Development,trial,techniques,FALSE,"Trial the use of the GitHub Copilot in our prefered IDEs as a powerfull code autocompletion tool"
-Adopt CD approach for development and test environments ,trial,techniques,FALSE,"And one day production environments. Explore ArgoCD"
-Performance Profiling,trial,techniques,FALSE,"Investigate tools for performance profiling of code and trial during performance investigations"
-Handling True 3D,trial,techniques,FALSE,
-Handling True Geodetics,trial,techniques,FALSE,
-Unify approach for Accessibility Testing,trial,techniques,FALSE,
-Shared modules for test automation,assess,techniques,FALSE,
-Aspect Oriented Programming,assess,techniques,FALSE,
-Telemetry for app feature usage,assess,techniques,FALSE,
-Enhance Test Integration with Jira,assess,techniques,FALSE,
-In-house Penetration Testing,assess,techniques,FALSE, "Assess how do we aquire the skills, tooling and environments to perform in-house penetration ( delta ) testing. Official Pen testing will always be outsourced but as part of Secure by Design principles we should asses our internal capability"
-Secure by Design Approach,assess,techniques,FALSE, "Asses if we can embed the Secure by Design framework of practices for our current and future development : https://www.security.gov.uk/guidance/secure-by-design/principles/"
-Favour lightweight/microservices architecture,assess,techniques,FALSE,"Use of microservices; service-event bus , service mesh"
-Think 'bare bones' build infrastucture and build up,hold,techniques,FALSE, "Our CI builds should , where feasible should be self-contained along with all prerequisites set up using IoC principles"
-Docker as main test and release,adopt,platforms,FALSE,"Adopt Docker containers as the main test and distribution platfom of our software where applicable"
-Windows 11,adopt,platforms,FALSE, "Windows 11 will be our target Windows Desktop platform for development and testing"
-Java 17,adopt,platforms,FALSE, "Adopt Java 17 as the main JDK platform" 
-Kubernetes,adopt,platforms,FALSE, "Adopt K8S for deployment of our systems and orchestration - goes hand in hand with microservices architectures and dockerised releases."
-"ELK stack ( Elasticsearch, Logstash, and Kibana)",adopt,platforms,FALSE,
-.NET 8,adopt,platforms,FALSE,
-Spring Boot,adopt,platforms,FALSE,
-Python 3,adopt,platforms,FALSE,
-iOS,trial,platforms,FALSE,
-macOS,trial,platforms,FALSE,
-Redis,trial,platforms,FALSE,
-Postgres Long transactions,assess,platforms,FALSE,
-Java 21,assess,platforms,FALSE,
-NoSQL,assess,platforms,FALSE,
-SQLServer 2022,assess,platforms,FALSE,"
-Oracle 23 Multitenancy,assess,platforms,FALSE, "Oracle 23 introduces Multitency for Workspace Manager, along with other siginifant improvements. Explore if this will be the next supported Oracle platform"
-Non-Azure Cloud Platforms,hold,platforms,FALSE, "Do we want to support of explore vendor neutral tooling for AWS , GoogleCloud etc."
-Kafka,hold,platforms,FALSE,
-Serverless Databases,hold,platforms,FALSE,
-Apache Spark,hold,platforms,FALSE,
-Tauri,hold,platforms,FALSE,
-W3C Accessibility Insights for Web,adopt,tools,FALSE,
-clang,adopt,tools,FALSE,
-Grafana,adopt,tools,FALSE,
-Visual Studio 2022,adopt,tools,FALSE,
-Swig Doc Generator,adopt,tools,FALSE,
-Jmeter,adopt,tools,FALSE,
-Jenkins Pipelines,adopt,tools,FALSE,
-Snyk,trial,tools,FALSE,
-OWASP Dependency-Check,trial,tools,FALSE,https://plugins.jenkins.io/dependency-check-jenkins-plugin/
-Cypress/Webdriver IO,trial,tools,FALSE,
-Tensorflow Lite,trial,tools,FALSE,
-Firebase Analytics/Crashalytics,trial,tools,FALSE,
-Rook/Ceph,assess,tools,FALSE,
-Blackbox exporter,assess,tools,FALSE,
-C' family coverage tools ,assess,tools,FALSE,
-Chaos ,assess,tools,FALSE,Resilience Test tool
-RustRover,assess,tools,FALSE,
-CLion,assess,tools,FALSE,
-Pulumi,hold,tools,FALSE,
-Terraform,hold,tools,FALSE,
-Bicep,hold,tools,FALSE,
-WebAssembly,hold,tools,FALSE,
-AzureDevOps for .NET development,hold,tools,FALSE,
-Deck.gl (Vis.gl),adopt,languages & frameworks,FALSE,
-React 18,adopt,languages & frameworks,FALSE,
-Junit 5,adopt,languages & frameworks,FALSE,
-Angular 17,adopt,languages & frameworks,FALSE,
-MapStore ( react extensions ),trial,languages & frameworks,FALSE,
-Vite,trial,languages & frameworks,FALSE,
-"ESRI SDK ( JavaScript , .NET ) ",trial,languages & frameworks,FALSE,
-OpenTelemetry,trial,languages & frameworks,FALSE,
-.NET MAUI ,trial,languages & frameworks,FALSE,
-C# 11-12,trial,languages & frameworks,FALSE,
-Go,trial,languages & frameworks,FALSE,
-.NET Aspire,trial,languages & frameworks,FALSE,".NET Aspire is cloud ready stack for building observable, production ready, distributed applications. .NET Aspire is delivered through a collection of NuGet packages that handle specific cloud-native concerns. Cloud-native apps often consist of small, interconnected pieces or microservices rather than a single, monolithic code base. https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview"
-Rust,trial,languages & frameworks,FALSE,"Modern and highly popular in the industry alternative to C/C++. Explore for low level, memory hungry, concurency applications. Originally intended to serve as a safer alternative to C and C++, Rust is a systems programming language that has gained significant popularity among developers thanks to its emphasis on safety, performance, and productivity. Our top contender for CoG !!! https://www.rust-lang.org/"
-Compose Multiplatform,trial,languages & frameworks,FALSE,"Multiplatform Application Development - Build your user interface once, and use it on all platforms – Android, iOS, web, and desktop. https://www.jetbrains.com/lp/compose-multiplatform/.Explore together with Kotlin for Multiplatform"
-Flutter,trial,languages & frameworks,FALSE,"Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.https://flutter.dev/"
-Playwright,assess,languages & frameworks,FALSE,"Playwright is an open-source automation library for browser testing and web scraping.https://playwright.dev/ "
-Blazor,assess,languages & frameworks,FALSE,"Blazor is a framework that allows you to use the power of .NET and C# to build full stack web apps without writing a line of JavaScript.https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
-NextJS,assess,languages & frameworks,FALSE,"Increasingly gaining popularity Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.https://nextjs.org/"
-Angular 18,assess,languages & frameworks,FALSE,"The Beta version of Angular 17 is now released with plently of new features as well as support for TypeScript 4.7 Support and new APIs. Read more on https://blog.angular.io/."
-Serverless functions,assess,languages & frameworks,FALSE,"Assess how can we do serverless functions in a platform agnostic way - a serverless function that doesn't have a direct dependency (in its code or in its configuration) to the framework of a particular cloud provider.Explore tools such as Spring Cloud or Kubeless ? "
-React 19,hold,languages & frameworks,FALSE,"The Beta version of React 19 has now been release plenty of useful features ! Keep an eye on the official versions . Blog with quick overview of the changes : https://www.freecodecamp.org/news/new-react-19-features/ "
-Cesium,hold,languages & frameworks,FALSE,"Open platform for software applications designed to unleash the power of 3D data.https://cesium.com/. Explore together with CesiumJS (https://cesium.com/platform/cesiumjs/)"
-Micronaut,hold,languages & frameworks,FALSE,"Micronaut is a is an open source JVM-based framework for building lightweight microservices. It is designed to avoid reflection, thus reducing memory consumption and improving start times.https://micronaut.io/"
-Quarkus,hold,languages & frameworks,FALSE,"K8S native Java stack https://quarkus.io/"
-Kotlin for Multi-platform development,hold,languages & frameworks,FALSE,"The Kotlin Multiplatform technology is designed to simplify the development of cross-platform projects. When starting new Cross-platform projects consider Kotlin https://kotlinlang.org/docs/multiplatform.html"
+name,ring,quadrant,isNew,description,
+Pipeline Based CI instead of manually managed jobs,adopt,techniques,FALSE,"Pipeline Based CI This involves automating the continuous integration process, where code changes are automatically tested and integrated into the main codebase, ensuring consistent and reliable builds. There is a repo with some useful util methods people can start using in bitbucket: 1spatial_jenkins_pipeline_utils",
+Use automation handles consistently across codebases,adopt,techniques,FALSE,"Use Automation Handles Consistently Across Codebases - This practice ensures that automation tools and scripts are used uniformly across different projects, enhancing maintainability and reducing errors.",
+Nexus as a Single Repository,adopt,techniques,FALSE,"Nexus as a Single Repository: Nexus is used as a central repository to manage and store build artifacts, dependencies, and other components, simplifying dependency management and version control.Unify the .NET, Java , Docker and test data artefact storage all in Nexus - single  and backed up source of truth",
+Containarised Test Databases,adopt,techniques,FALSE,"Containerised Test Databases: Using containerized databases for testing allows for isolated, reproducible, and scalable test environments, improving the reliability of tests.Explore the use of Testcontainers for lightweight local and ci database testing : https://java.testcontainers.org/modules/databases/",
+AI Assisted Development,trial,techniques,FALSE,"Leveraging AI tools, such as GitHub Copilot, to assist in coding can enhance productivity and code quality by providing intelligent code suggestions and automating repetitive tasks.",
+Adopt CD approach for development and test environments ,trial,techniques,FALSE,"Adopt CD Approach for Development and Test Environments: Continuous Deployment (CD) involves automatically deploying code changes to development and test environments, ensuring that the latest code is always available for testing and feedback.Explore ArgoCD",
+Performance Profiling,trial,techniques,FALSE,"This technique involves analyzing the performance of applications to identify bottlenecks and optimize resource usage, ensuring efficient and responsive software.Investigate tools for performance profiling of code and trial during performance investigations",
+Handling True 3D,trial,techniques,FALSE,Handling True 3D: Techniques for managing true 3D graphics involve using specialized algorithms and tools to render and manipulate three-dimensional objects in applications.,
+Handling True Geodetics,trial,techniques,FALSE,"Handling True Geodetics: This involves accurately representing and manipulating geographic data, taking into account the Earth’s shape and size, for applications like mapping and navigation.",
+Unify approach for Accessibility Testing,trial,techniques,FALSE,"Unify Approach for Accessibility Testing: Standardizing accessibility testing practices ensures that all applications are tested for compliance with accessibility standards, improving usability for all users.",
+Shared modules for test automation,assess,techniques,FALSE,"Creating reusable test automation modules allows for consistent and efficient testing across different projects, reducing duplication of effort.",
+Aspect Oriented Programming,assess,techniques,FALSE,"AOP is a programming paradigm that separates cross-cutting concerns (like logging and security) from the main business logic, improving code modularity and maintainability.",
+Telemetry for app feature usage,assess,techniques,FALSE,Collecting telemetry data on how users interact with app features helps in understanding usage patterns and improving the user experience.,
+Enhance Test Integration with Jira,assess,techniques,FALSE," Integrating test management tools with Jira allows for better tracking of test cases, defects, and overall project progress.",
+In-house Penetration Testing,assess,techniques,FALSE,Conducting penetration tests internally helps identify and address security vulnerabilities before they can be exploited by malicious actors.Assess how do we aquire the skills," tooling and environments to perform in-house penetration ( delta ) testing. Official Pen testing will always be outsourced but as part of Secure by Design principles we should asses our internal capability"""
+Secure by Design Approach,assess,techniques,FALSE,"This approach involves incorporating security considerations into the design and development process from the outset, rather than as an afterthought.Asses if we can embed the Secure by Design framework of practices for our current and future development : https://www.security.gov.uk/guidance/secure-by-design/principles/",
+Favour lightweight/microservices architecture,assess,techniques,FALSE,"Adopting a microservices architecture involves breaking down applications into smaller, independent services, which can improve scalability and maintainability.Potentially think about service-event bus , service meshes",
+Think 'bare bones' build infrastucture and build up,hold,techniques,FALSE,Starting with a minimal build infrastructure and gradually adding necessary components helps in creating a lean and efficient build process.," where feasible should be self-contained along with all prerequisites set up using IoC principles"
+Docker as main test and release,adopt,platforms,FALSE," Using Docker for testing and releasing applications ensures consistency across different environments, as Docker containers encapsulate all dependencies and configurations.",
+Windows 11,adopt,platforms,FALSE,"The latest version of Microsoft’s operating system, offering new features, improved performance, and enhanced security.Windows 11 will be our target Windows Desktop platform for development and testing",
+Java 17,adopt,platforms,FALSE,"Adopt Java 17 as the main JDK platform",
+Kubernetes,adopt,platforms,FALSE,"Adopt K8S for deployment of our systems and orchestration - goes hand in hand with microservices architectures and dockerised releases.",
+"ELK stack ( Elasticsearch, Logstash, and Kibana)",adopt,platforms,FALSE,"The ELK Stack consists of Elasticsearch, Logstash, and Kibana. Elasticsearch is a search and analytics engine, Logstash is a server-side data processing pipeline that ingests data from multiple sources, and Kibana is a visualization tool that works on top of Elasticsearch1.",
+.NET 8,adopt,platforms,FALSE,"NET 8 is the latest version of the .NET framework, a free, cross-platform, open-source developer platform for building many different types of applications. It includes improvements in performance, new APIs, and enhanced support for cloud-native applications.",
+Spring Boot,adopt,platforms,FALSE,"Spring Boot is an open-source Java-based framework used to create stand-alone, production-grade Spring-based applications. It simplifies the development process by providing a range of non-functional features commonly used in large-scale projects.",
+Python 3,adopt,platforms,FALSE,"Python 3 is the latest major version of the Python programming language, known for its readability and simplicity. It includes many improvements over Python 2, such as better Unicode support and more consistent syntax.",
+Redis,trial,platforms,FALSE,"Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, and more.",
+Postgres Long transactions,assess,platforms,FALSE,"PostgreSQL, often referred to as Postgres, is an open-source relational database management system. Long transactions in Postgres refer to transactions that run for an extended period, which can impact performance and require careful management to avoid issues like transaction ID wraparound.",
+Java 21,assess,platforms,FALSE,"Java 21 is a future release of the Java programming language, expected to include new features and enhancements to improve performance, security, and developer productivity.",
+NoSQL,assess,platforms,FALSE,"NoSQL databases are designed to handle large volumes of data that do not fit well into traditional relational databases. They are often used for big data and real-time web applications, offering flexible schemas and horizontal scalability.",
+SQLServer 2022,assess,platforms,FALSE,"SQL Server 2022 is the latest version of Microsoft’s relational database management system, offering several key enhancement such as Azure Integration, performance enhancements and hybrid capabilities bi-directional high availability and DR between on-prem SQL Server and Azure SQL Managed instance",
+Oracle 23 Multitenant Platform,assess,platforms,FALSE,"Oracle 23 introduces enhanced multitenancy features, allowing multiple pluggable databases to run under a single container database. This architecture improves resource utilization and simplifies database management.",
+Non-Azure Cloud Platforms,hold,platforms,FALSE,"These include cloud services from providers like AWS, Google Cloud, IBM Cloud, and others, offering a range of services similar to Azure but with different features and pricing models.",
+Kafka,hold,platforms,FALSE,Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. It is used for building real-time data pipelines and streaming applications.",
+Serverless Databases,hold,platforms,FALSE,These databases automatically scale with the workload and do not require manual management of the underlying infrastructure. Examples include AWS Aurora Serverless and Google Cloud Firestore.",
+Apache Spark,hold,platforms,FALSE,"An open-source unified analytics engine for large-scale data processing, with built-in modules for streaming, SQL, machine learning, and graph processing.",
+Tauri,hold,platforms,FALSE,"A framework for building tiny, fast binaries for all major desktop platforms. It uses Rust for the backend and any frontend framework for the UI.",
+W3C Accessibility Insights for Web,adopt,tools,FALSE,"A tool that helps developers find and fix accessibility issues in web applications, ensuring compliance with W3C accessibility standards.",
+clang,adopt,tools,FALSE," A compiler for the C, C++, and Objective-C programming languages, part of the LLVM project, known for its fast compilation and useful error messages.",
+Grafana,adopt,tools,FALSE,"An open-source platform for monitoring and observability, allowing users to query, visualize, alert on, and understand their metrics no matter where they are stored.",
+Visual Studio 2022,adopt,tools,FALSE,"The latest version of Microsoft’s integrated development environment (IDE), offering advanced debugging, code completion, and collaboration features.",
+Swig Doc Generator,adopt,tools,FALSE,"A tool used to generate documentation from source code, often used in conjunction with the Simplified Wrapper and Interface Generator (SWIG).",
+Jmeter,adopt,tools,FALSE,An open-source tool designed to load test functional behavior and measure performance. It is primarily used for web applications.,
+Jenkins Pipelines,adopt,tools,FALSE,"Jenkins Pipelines is A suite of plugins that supports implementing and integrating continuous delivery pipelines into Jenkins, allowing for automation of build, test, and deployment processes.",
+Snyk,trial,tools,FALSE,"Snyk A security platform designed to help developers find and fix vulnerabilities in their code, dependencies, containers, and infrastructure as code.",
+OWASP Dependency-Check,trial,tools,FALSE,"OWASP Dependency-Check A software composition analysis tool that identifies project dependencies and checks if there are any known, publicly disclosed vulnerabilities.",
+Cypress/Webdriver IO,trial,tools,FALSE,"Cypress/Webdriver IO Both are end-to-end testing frameworks for web applications. Cypress is known for its developer-friendly features, while Webdriver IO is a versatile automation framework.",
+Tensorflow Lite,trial,tools,FALSE,"TensorFlow Lite A lightweight version of TensorFlow designed for mobile and embedded devices, enabling on-device machine learning.",
+Firebase Analytics/Crashalytics,trial,tools,FALSE,"Firebase Analytics/Crashlytics Firebase Analytics provides insights into app usage and user engagement, while Crashlytics helps track, prioritize, and fix stability issues in real-time.",
+Rook/Ceph,assess,tools,FALSE,"Rook/Ceph Rook is an open-source cloud-native storage orchestrator for Kubernetes, and Ceph is a distributed storage system that provides object, block, and file storage.",
+Blackbox exporter,assess,tools,FALSE,"Blackbox Exporter A Prometheus exporter for blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC.",
+C' family coverage tools ,assess,tools,FALSE,"C’ Family Coverage Tools Tools used to measure code coverage for C, C++, and other languages in the C family, helping ensure that tests cover all parts of the code.",
+Chaos ,assess,tools,FALSE,Chaos Chaos engineering involves experimenting on a system to build confidence in its ability to withstand turbulent conditions in production.,
+RustRover,assess,tools,FALSE,"RustRover An IDE for Rust development, providing features like smart code completion, refactoring, and debugging.",
+CLion,assess,tools,FALSE,"CLion A cross-platform IDE for C and C++ development from JetBrains, offering features like code analysis, refactoring, and debugging.",
+Pulumi,hold,tools,FALSE,"Pulumi An infrastructure as code tool that allows developers to use programming languages like TypeScript, Python, and Go to define and manage cloud infrastructure.",
+Terraform,hold,tools,FALSE,"Terraform An open-source infrastructure as code software tool created by HashiCorp, enabling users to define and provision data center infrastructure using a high-level configuration language.",
+Bicep,hold,tools,FALSE,"Bicep A domain-specific language (DSL) for deploying Azure resources declaratively, providing a simpler syntax compared to ARM templates.",
+WebAssembly,hold,tools,FALSE,"WebAssembly A binary instruction format for a stack-based virtual machine, designed to be a portable compilation target for high-level languages like C, C++, and Rust, enabling deployment on the web for client and server applications.",
+AzureDevOps for .NET development,hold,tools,FALSE,"Azure DevOps for .NET Development A suite of development tools provided by Microsoft for managing the entire application lifecycle, including planning, developing, delivering, and operating .NET applications.",
+Deck.gl (Vis.gl),adopt,languages & frameworks,FALSE,"Deck.gl (Vis.gl) A WebGL-powered framework for visual exploratory data analysis of large datasets, often used in conjunction with Mapbox GL.",
+React 18,adopt,languages & frameworks,FALSE,"React 18 The latest version of the popular JavaScript library for building user interfaces, introducing concurrent rendering and other performance improvements.",
+Junit 5,adopt,languages & frameworks,FALSE,"JUnit 5 The latest version of the JUnit testing framework for Java, offering a modular architecture and new features to write and run tests.",
+Angular 17,adopt,languages & frameworks,FALSE,"Angular 17 The latest version of the Angular framework for building web applications, featuring improvements in performance, developer experience, and new features.",
+MapStore ( react extensions ),trial,languages & frameworks,FALSE,"MapStore (React Extensions) An open-source framework to create, manage, and share maps and dashboards, with extensions for React to enhance its capabilities.",
+Vite,trial,languages & frameworks,FALSE,"Vite A build tool that aims to provide a faster and leaner development experience for modern web projects, leveraging native ES modules.",
+"ESRI SDK ( JavaScript , .NET ) ",trial,languages & frameworks,FALSE,"ESRI SDK (JavaScript, .NET) Software development kits provided by ESRI for building mapping and spatial analysis applications using JavaScript and .NET.",
+OpenTelemetry,trial,languages & frameworks,FALSE,"OpenTelemetry An observability framework for cloud-native software, providing APIs and instrumentation to collect metrics, logs, and traces.",
+.NET MAUI ,trial,languages & frameworks,FALSE,".NET MAUI .NET Multi-platform App UI, a framework for building cross-platform applications for iOS, Android, macOS, and Windows with a single codebase.",
+C# 11-12,trial,languages & frameworks,FALSE,"C# 11-12 The latest versions of the C# programming language, introducing new features and improvements to enhance developer productivity and code quality.",
+Go,trial,languages & frameworks,FALSE,"Go An open-source programming language designed by Google, known for its simplicity, efficiency, and strong concurrency support.",
+.NET Aspire,trial,languages & frameworks,FALSE,".NET Aspire A hypothetical or future version of the .NET platform, potentially including new features and enhancements for modern application development.",
+Rust,trial,languages & frameworks,FALSE,"Modern and highly popular in the industry alternative to C/C++. Explore for low level, memory hungry, concurency applications. Originally intended to serve as a safer alternative to C and C++, Rust is a systems programming language that has gained significant popularity among developers thanks to its emphasis on safety, performance, and productivity. Our top contender for CoG !!! https://www.rust-lang.org/",
+Compose Multiplatform,trial,languages & frameworks,FALSE,"Multiplatform Application Development - Build your user interface once, and use it on all platforms â€“ Android, iOS, web, and desktop. https://www.jetbrains.com/lp/compose-multiplatform/.Explore together with Kotlin for Multiplatform",
+Flutter,trial,languages & frameworks,FALSE,"Flutter is an open source framework by Google for building beautiful, natively compiled, multi-platform applications from a single codebase.https://flutter.dev/",
+Playwright,assess,languages & frameworks,FALSE,Playwright is an open-source automation library for browser testing and web scraping.https://playwright.dev/ ,
+Blazor,assess,languages & frameworks,FALSE,Blazor is a framework that allows you to use the power of .NET and C# to build full stack web apps without writing a line of JavaScript.https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor,
+NextJS,assess,languages & frameworks,FALSE,"Increasingly gaining popularity Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.https://nextjs.org/",
+Angular 18,assess,languages & frameworks,FALSE,The Beta version of Angular 17 is now released with plently of new features as well as support for TypeScript 4.7 Support and new APIs. Read more on https://blog.angular.io/.,
+Serverless functions,assess,languages & frameworks,FALSE,Assess how can we do serverless functions in a platform agnostic way - a serverless function that doesn't have a direct dependency (in its code or in its configuration) to the framework of a particular cloud provider.Explore tools such as Spring Cloud or Kubeless ? ,
+React 19,hold,languages & frameworks,FALSE,The Beta version of React 19 has now been release plenty of useful features ! Keep an eye on the official versions . Blog with quick overview of the changes : https://www.freecodecamp.org/news/new-react-19-features/ ,
+Cesium,hold,languages & frameworks,FALSE,Open platform for software applications designed to unleash the power of 3D data.https://cesium.com/. Explore together with CesiumJS (https://cesium.com/platform/cesiumjs/),
+Micronaut,hold,languages & frameworks,FALSE,"Micronaut is a is an open source JVM-based framework for building lightweight microservices. It is designed to avoid reflection, thus reducing memory consumption and improving start times.https://micronaut.io/",
+Quarkus,hold,languages & frameworks,FALSE,"K8S native Java stack https://quarkus.io/",
+Kotlin for Multi-platform development,hold,languages & frameworks,FALSE,The Kotlin Multiplatform technology is designed to simplify the development of cross-platform projects. When starting new Cross-platform projects consider Kotlin https://kotlinlang.org/docs/multiplatform.html,
+iOS,trial,platforms,FALSE,"macOS is the operating system developed by Apple for its Mac computers.Consider for cross-platform development.",
+macOS,trial,platforms,FALSE,"iOS is Apple’s mobile operating system for iPhone and iPad.Consider for cross-platform development.",
