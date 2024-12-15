@@ -31,7 +31,7 @@ NoSQL,assess,platforms,FALSE,"NoSQL databases are designed to handle large volum
 SQLServer 2022,assess,platforms,FALSE,"SQL Server 2022 is the latest version of Microsoft’s relational database management system, offering several key enhancement such as Azure Integration, performance enhancements and hybrid capabilities bi-directional high availability and DR between on-prem SQL Server and Azure SQL Managed instance",
 Oracle 23 Multitenant Platform,assess,platforms,FALSE,"Oracle 23 introduces enhanced multitenancy features, allowing multiple pluggable databases to run under a single container database. This architecture improves resource utilization and simplifies database management.",
 Non-Azure Cloud Platforms,hold,platforms,FALSE,"These include cloud services from providers like AWS, Google Cloud, IBM Cloud, and others, offering a range of services similar to Azure but with different features and pricing models.",
-Kafka,hold,platforms,FALSE,Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. It is used for building real-time data pipelines and streaming applications.",
+Kafka,hold,platforms,FALSE,Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. It is used for building real-time data pipelines and streaming applications.,
 Serverless Databases,hold,platforms,FALSE,These databases automatically scale with the workload and do not require manual management of the underlying infrastructure. Examples include AWS Aurora Serverless and Google Cloud Firestore.",
 Apache Spark,hold,platforms,FALSE,"An open-source unified analytics engine for large-scale data processing, with built-in modules for streaming, SQL, machine learning, and graph processing.",
 Tauri,hold,platforms,FALSE,"A framework for building tiny, fast binaries for all major desktop platforms. It uses Rust for the backend and any frontend framework for the UI.",
@@ -85,3 +85,36 @@ Quarkus,hold,languages & frameworks,FALSE,"K8S native Java stack https://quarkus
 Kotlin for Multi-platform development,hold,languages & frameworks,FALSE,The Kotlin Multiplatform technology is designed to simplify the development of cross-platform projects. When starting new Cross-platform projects consider Kotlin https://kotlinlang.org/docs/multiplatform.html,
 iOS,trial,platforms,FALSE,"macOS is the operating system developed by Apple for its Mac computers.Consider for cross-platform development.",
 macOS,trial,platforms,FALSE,"iOS is Apple’s mobile operating system for iPhone and iPad.Consider for cross-platform development.",
+Unit UI Testing,adopt,techniques,TRUE,Unit UI testing involves testing individual components of a user interface in isolation to ensure they function correctly. Used in 1AeroEditor and beginning adoption in 1Integrate and 1DataGateway.
+Peer Review Request like process for Rule Writing,adopt,techniques,TRUE,A structured process where peers review and provide feedback on rule-based authoring with 1Integrate. 1Streetworks team dedicates a day a sprint to ensure rules are reviewed and optimised.
+UX Research ,adopt,techniques,TRUE,Systematic study of users and their requirements to improve user experience design. Adopt for all products and schedule frequently.
+User telemetry for User docs,trial,techniques,TRUE,Collecting and analyzing user interaction data with documentation to improve usability.
+Accessibility Testing  for Products,trial,techniques,TRUE,"Ensuring products are usable by people with disabilities, complying with accessibility standards.Use accessibility tools such as WS3 Accessibility tools."
+Drones for collecting remote data,trial,techniques,TRUE,Using drones to gather data from remote or hard-to-reach locations. 1Capture and 1Edit integrations needed.
+Standardise NFR testing,trial,techniques,TRUE,Establishing consistent methods for testing non-functional requirements like performance and security.
+AI driven automated testing,assess,techniques,TRUE,"Using AI to automate the testing process, improving efficiency and accuracy."
+AI to semi-automate test data generation,assess,techniques,TRUE,Leveraging AI to partially automate the creation of test data.
+4D GIS - ability to see changes in land usage over time,assess,techniques,TRUE,Geographic Information Systems that include the time dimension to visualize changes in land use.
+Shared Component Library (UI/NPM),assess,techniques,TRUE,A repository of reusable UI components managed via NPM.
+Geospatial APIs,assess,techniques,TRUE,OGC APIs provide access to geospatial data and services - both integration of our tools and publishing data to Geospatial APIs
+Unified Searches accross single Application ( 1Integrate),assess,techniques,TRUE,Integrating search functionality across an application to provide unified results.
+"Cloud Deployments via ""admin app"" rather than pipelines.",assess,techniques,TRUE,Deploying applications to the cloud using an administrative interface instead of automated pipelines. Underneath the 'interface' there will be still be automated pipelines but this is the stepping stone to 1Admin for SaaS products.
+Navatic,adopt,tools,TRUE,A platform that allows businesses to create interactive product demos.
+Flare,adopt,tools,TRUE,A powerful documentation tool designed for technical writers and content developers where content is single-sourced. Adopt for all products and externally facing documentation
+Helm,adopt,tools,TRUE,"A package manager for Kubernetes, simplifying deployment and management of applications."
+Blackbox Exporter,adopt,tools,TRUE,"A Prometheus exporter for blackbox probing of endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC."
+Vite,adopt,tools,TRUE,A fast build tool and development server for modern web projects.
+Pendo for App Analytics,assess,tools,TRUE,A platform for product analytics and user feedback to improve user experience.
+LLMs ( for product features),trial,tools,TRUE,Large Language Models used to enhance product features with natural language understanding.
+STAC,trial,languages and frameworks,TRUE,"The STAC specification is a common language to describe geospatial information, so it can more easily be worked with, indexed, and discovered."
+Storybook,trial,languages and frameworks,TRUE,An open-source tool for developing UI components in isolation
+TypeScript,adopt,languages and frameworks,TRUE,A typed superset of JavaScript that compiles to plain JavaScript. Our choice over plain JavaScript.
+MaterialUI,adopt,languages and frameworks,TRUE,A popular React UI framework implementing Google’s Material Design.
+D3,adopt,languages and frameworks,TRUE,"A JavaScript library for producing dynamic, interactive data visualizations in web browsers."
+LLMs for various purposes (rule generation) ,assess,platforms,TRUE,Using Large Language Models to generate simple 1Integrate rules.
+Integration with Data Catalogues,assess,platforms,TRUE,Connecting applications with data catalogues to manage and discover data assets.
+PowerBI for product dashboarding,trial,platforms,TRUE,Using PowerBI to create interactive dashboards for product analytics consuming product APIs or published repository ( not recommended!)
+Figma,adopt,platforms,TRUE,A collaborative interface design tool. Our choice for UIUX design 
+GraphHopper,adopt,platforms,TRUE,A routing engine for road networks
+Martin,adopt,platforms,TRUE,Martin is an opensource VTS server which can serve VTS from various data sources including PostGIS and MBTiles files.
+MapBox,adopt,platforms,TRUE,"Mapbox is a powerful platform for building custom maps and geospatial applications. It provides a suite of tools and APIs for developers to create interactive, customizable maps with advanced features such as real-time data visualization, geocoding, and routing."
